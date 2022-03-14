@@ -23,7 +23,7 @@ int main(void)
 		alphabet++;
 	}
 
-	putchar(\n);
+	putchar('\n');
 
 	return (0);
 }
