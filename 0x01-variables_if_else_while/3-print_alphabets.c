@@ -30,5 +30,7 @@ int main(void)
 		Alphabet++;
 	}
 
+	putchar(\n);
+
 	return (0);
 }
