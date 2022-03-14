@@ -11,11 +11,12 @@
 
 int main(void)
 {
-	char alphabet ='a';
-
-	if (alphabet !='e' && alphabet !='q')
+	
+	char alphabet;
+	for (alphabet = 'a';alphabet <= 'z';alphabet++)
 	{
-		putchar(alphabet);
+		if (alphabet != 'e' && alphabet != 'q')
+			putchar(alphabet);
 	}
 
 	putchar('\n');
