@@ -1,37 +1,32 @@
 #include <stdio.h>
+#include <math.h>
 #include "main.h"
 
 /**
- * print_triangle - prints a triangle
- * @size: length of sides minus hypotenuse
+ * main - prints the largest prime factor of the number 612852475143
  *
- * Return: void
+ * Return: Always 0
  */
 
-void print_triangle(int size)
+int main(void)
 {
-	int line = 0;
-	int spaces;
-	int hashes;
+	long int prime = 612852475143;
+	long int quotient = prime;
+	long int divisor = 2;
 
-	if (size > 0)
+	while (quotient != divisor)
 	{
-		while (line < size)
+		if (quotient % divisor == 0)
 		{
-			for (spaces = size - 1; spaces > line; spaces--)
-			{
-				_putchar(' ');
-			}
-			for (hashes = 0; hashes < line + 1; hashes++)
-			{
-				_putchar('#');
-			}
-			_putchar('\n');
-			line++;
+			quotient = quotient / divisor;
+		}
+		else
+		{
+			divisor++;
 		}
 	}
-	else
-	{
-		_putchar('\n');
-	}
+
+	printf("%li\n", quotient);
+
+	return (0);
 }
