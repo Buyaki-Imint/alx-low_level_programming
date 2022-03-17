@@ -15,7 +15,7 @@ int main(void)
 
         while (i > 10) /* causes infinite loop until condition is met */
         {
-                putchar((i % 10) + '0'); /* prints output of every loop */
+                printf(%d ,i); /* prints output of every loop */
         }
 
         printf("Infinite loop avoided! \\o/\n");
