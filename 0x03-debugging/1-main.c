@@ -13,7 +13,7 @@ int main(void)
 
         i = 0; 
 
-        while (i < 10) /* causes infinite loop until condition is met */
+        while (i > 10) /* causes infinite loop until condition is met */
         {
                 putchar(i); /* prints output of every loop */
         }
