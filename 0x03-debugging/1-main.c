@@ -7,15 +7,15 @@
 
 int main(void)
 {
-        int i; /* declaration of i */
+        int i;
 
         printf("Infinite loop incoming :(\n");
 
-        i = 0; 
+        i = 0;
 
-        while (i > 10) /* causes infinite loop until condition is met */
+        while (i < 10)
         {
-                printf(%d ,i); /* prints output of every loop */
+                putchar(i);
         }
 
         printf("Infinite loop avoided! \\o/\n");
