@@ -1,20 +1,7 @@
-#ifndef MAIN_H
-#define MAIN_H
-
-/**
-  * Desc: Header file containing prototypes for all functions
- *       used in the 0x07-recursion directory.
- */
-
-int _putchar(char c);
-void _puts_recursion(char *s);
-void _print_rev_recursion(char *s);
-int _strlen_recursion(char *s);
-int factorial(int n);
-int _pow_recursion(int x, int y);
-int _sqrt_recursion(int n);
-int is_prime_number(int n);
-int is_palindrome(char *s);
-int wildcmp(char *s1, char *s2);
-
-#endif
+0-puts_recursion.c: function that prints a string, followed by a new line
+1-print_rev_recursion.c: function that prints a string in reverse
+2-strlen_recursion.c: function that returns the length of a string
+3-factorial.c: function that returns the factorial of a given number
+4-pow_recursion.c: function that returns the value of x raised to the power of y
+5-sqrt_recursion.c: function that returns the natural square root of a number
+7-is_palindrome.c: function that returns 1 if a string is a palindrome and 0 if not
